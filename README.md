@@ -1,4 +1,3 @@
-
 # maven-profiling-logger #
 
 Simple Maven extension to present time consumed by different maven plugins.
@@ -13,6 +12,7 @@ Then go in `target`, pick the `maven-profiling-logger-${project.version}.jar` an
 
 # Sample output #
 
+```
 [INFO] MOJO EXECUTION TIMES
 [INFO] ------------------------------------------------------------------------
 [INFO]  37% maven-compiler-plugin [2.00s]
@@ -41,9 +41,9 @@ Then go in `target`, pick the `maven-profiling-logger-${project.version}.jar` an
 [INFO] Total time: 5.317s
 [INFO] Finished at: Thu Mar 13 20:26:35 CET 2014
 [INFO] Final Memory: 14M/35M
-
+```
 
 # Thanks #
-It was build thanks to excelent work done by alexkli https://github.com/alexkli/maven/commit/efb72827d2df44abf1114bcc7aeff3efeca2cd55
-Unfortunately it is not part of Maven release, so I found a way to use it for now as extension following https://github.com/Riduidel/maven-growl-plugin
+It was created thanks to excelent work done by [alexkli]( https://github.com/alexkli/maven/commit/efb72827d2df44abf1114bcc7aeff3efeca2cd55).    
+Unfortunately it has not become a part of Maven release, so I found a way to use it for now as an extension following (https://github.com/Riduidel/maven-growl-plugin).
 
